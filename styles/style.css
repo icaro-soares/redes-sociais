@@ -22,7 +22,7 @@ body {
 
 main {
     height: 100vh;
-    margin: 1.5em;
+    margin: 9em 15em;
 
     display: flex;
     justify-content: space-between;
@@ -72,8 +72,9 @@ main {
 }
 
 .texto ul a {
+    width: 100%;
     margin: 1em 0;
-    padding: .5em;
+    padding: .5em 1em;
 
     border: 3px solid var(--cor1);
     border-radius: .5em;
@@ -83,6 +84,7 @@ main {
 
     font: normal 14px var(--fonte2);
     text-decoration: none;
+    text-align: center;
 }
 
 img {
