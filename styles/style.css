@@ -20,6 +20,33 @@ body {
     color: white;
 }
 
+header {
+    padding: 5em 10em;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.5em;
+}
+
+header ul a {
+    text-decoration: none;
+    font: normal 1.5em var(--fonte1);
+    color: var(--cor1);
+}
+
+footer {
+    padding: 5em 10em;
+    text-align: center;
+}
+
+footer p {
+    font: normal 1em var(--fonte1);
+    color: var(--cor1);
+}
+
 main {
     margin: 10em;
 
@@ -27,6 +54,10 @@ main {
     display: grid;
     grid-template-columns: 50% 50%;
     place-items: center center;
+}
+
+section.texto {
+    padding: 1em;
 }
 
 section.texto h1 {
