@@ -3,6 +3,7 @@
 
 :root {
     --cor1: #22D4FD;
+    --hover: #ffffff73;
 
     --fonte1: 'Krona One', sans-serif;
     --fonte2: 'Montserrat', sans-serif;
@@ -72,6 +73,11 @@ section.texto div li {
     padding: 8px;
 }
 
+section.texto div li:hover {
+    background-color: var(--hover);
+    transition: .5s;
+}
+
 section.texto div a {
     text-decoration: none;
     font: lighter 16px var(--fonte2);
@@ -79,6 +85,7 @@ section.texto div a {
 }
 
 section img {
+    height: 100%;
     border-radius: 8px;
 }
 
