@@ -82,7 +82,3 @@ main {
     color: var(--cor2);
     font: lighter 1em var(--fonte2);
 }
-
-.instagram::before {
-    content: url('../assets/instagram.svg');
-}
