@@ -77,3 +77,7 @@ section.texto div a {
     font: lighter 16px var(--fonte2);
     color: white;
 }
+
+section img {
+    border-radius: 8px;
+}
