@@ -30,7 +30,7 @@ main {
 }
 
 section.texto h1 {
-    margin: 16px 0;
+    margin: 1em 0;
     font: bold 2.5em var(--fonte1);
 }
 
@@ -39,12 +39,12 @@ section.texto h1 strong {
 }
 
 section.texto p {
-    margin: 16px 0;
+    margin: 1em 0;
     font: lighter 16px var(--fonte2);
 }
 
 section.texto div {
-    margin: 16px 0;
+    margin: 1em 0;
 
     display: flex;
     flex-flow: column nowrap;
@@ -52,8 +52,8 @@ section.texto div {
 }
 
 section.texto div h2 {
-    margin-bottom: 16px;
-    font: bold 24px var(--fonte1);
+    margin-bottom: 1em;
+    font: bold 1.5em var(--fonte1);
 }
 
 section.texto div ul {
@@ -62,15 +62,15 @@ section.texto div ul {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    gap: 16px;
+    gap: 1em;
 }
 
 section.texto div li {
     width: 100%;
     text-align: center;
     border: 3px solid var(--cor1);
-    border-radius: 8px;
-    padding: 8px;
+    border-radius: .5em;
+    padding: .5em;
 }
 
 section.texto div li:hover {
@@ -80,13 +80,13 @@ section.texto div li:hover {
 
 section.texto div a {
     text-decoration: none;
-    font: lighter 16px var(--fonte2);
+    font: lighter 1em var(--fonte2);
     color: white;
 }
 
 section img {
     height: 100%;
-    border-radius: 8px;
+    border-radius: .5em;
 }
 
 @media screen and (max-width: 768px) {
