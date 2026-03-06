@@ -41,6 +41,8 @@ section.texto h1 strong {
 section.texto p {
     margin: 1em 0;
     font: lighter 16px var(--fonte2);
+    text-align: justify;
+    line-height: 1.5em;
 }
 
 section.texto div {
@@ -76,6 +78,10 @@ section.texto div li {
 section.texto div li:hover {
     background-color: var(--hover);
     transition: .5s;
+}
+
+section.texto div li i {
+    padding-right: .5em;
 }
 
 section.texto div a {
