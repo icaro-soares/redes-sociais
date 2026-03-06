@@ -17,81 +17,12 @@
 
 body {
     height: 100vh;
-
-    background-color: black;
-    color: white;
 }
 
 main {
+    margin: 5em;
     height: 100vh;
-    margin: 6em;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.texto h1 {
-    font: bold 2.5em var(--fonte1);
-    margin: .5em 0;
-}
-
-.texto h1 strong {
-    color: var(--cor1);
-}
-
-.texto p {
-    margin: .5em 0;
-    font: lighter 1em var(--fonte2);
-    text-align: justify;
-}
-
-.texto div {
-    margin: .5em 0;
-
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.texto div h2 {
-    font: bold 1.5em var(--fonte1);
-    margin-bottom: .5em;
-}
-
-.texto div ul {
-    list-style: none;
-    display: flex;
-    flex-flow: column nowrap;
-    gap: 10px;
-}
-
-.texto div li {
-    border: 3px solid var(--cor1);
-    border-radius: .5em;
-    background-color: transparent;
-    text-align: center;
-    padding: .5em;
-}
-
-.texto div li a {
-    text-decoration: none;
-    color: var(--cor2);
-    font: lighter 1em var(--fonte2);
-}
-
-.texto div li:hover {
-    background-color: #c0c0c073;
-    transition: .5s;
-}
-
-img {
-    border-radius: .5em;
-}
-
-@media screen and (max-width: 768px) {
-    main {
-        flex-direction: column-reverse;
-    }
+    display: grid;
+    grid-template-columns: 50% 50%;
+    place-items: center center;
 }
