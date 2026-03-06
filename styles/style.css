@@ -3,7 +3,6 @@
 
 :root {
     --cor1: #22D4FD;
-    --cor2: #F6F6F6;
 
     --fonte1: 'Krona One', sans-serif;
     --fonte2: 'Montserrat', sans-serif;
@@ -17,6 +16,8 @@
 
 body {
     height: 100vh;
+    background-color: black;
+    color: white;
 }
 
 main {
@@ -25,4 +26,54 @@ main {
     display: grid;
     grid-template-columns: 50% 50%;
     place-items: center center;
+}
+
+section.texto h1 {
+    margin: 16px 0;
+    font: bold 2.5em var(--fonte1);
+}
+
+section.texto h1 strong {
+    color: var(--cor1);
+}
+
+section.texto p {
+    margin: 16px 0;
+    font: lighter 16px var(--fonte2);
+}
+
+section.texto div {
+    margin: 16px 0;
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+section.texto div h2 {
+    margin-bottom: 16px;
+    font: bold 24px var(--fonte1);
+}
+
+section.texto div ul {
+    list-style: none;
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 16px;
+}
+
+section.texto div li {
+    width: 100%;
+    text-align: center;
+    border: 3px solid var(--cor1);
+    border-radius: 8px;
+    padding: 8px;
+}
+
+section.texto div a {
+    text-decoration: none;
+    font: lighter 16px var(--fonte2);
+    color: white;
 }
